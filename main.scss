@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 $font: 'Bitter', serif;
+$black: #111111;
 
 body {
   margin: 0;
@@ -75,17 +76,17 @@ header {
     margin-top: 30px;
 
     &__nav{
-      margin-left:20px;
     }
 
     &__title{
-    font-size: 24px;
-    font-family:$font; 
-    color:black
+      font-size: 24px;
+      font-family:$font; 
+      color:$black;
+      margin-left: 20px;
     }
 
     &__link{
-      color: black;
+      color: $black;
       font-family:$font; 
     }
   }
