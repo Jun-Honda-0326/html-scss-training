@@ -7,7 +7,7 @@ module.exports = {
   entry: "./main.scss",
   output: {
     // どのディレクトリにどんな名前でbuild後のcssを吐くか
-    path: path.join(__dirname, ''),
+    path: path.join(__dirname, 'src/css'),
     filename: '[name].css'
   },
   module: {
