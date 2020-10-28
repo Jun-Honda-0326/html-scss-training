@@ -49,8 +49,8 @@ header {
       font-size: 36px;
       font-family: "Bitter", serif;
       border-bottom: 1px solid #cccccc; }
-    .content .main__section2 {
-      margin: 30px 0 70px 0; }
+    .content .main__section {
+      margin-top: 30px; }
   .content .sidebar {
     margin-top: 30px; }
     .content .sidebar__title {
@@ -69,6 +69,7 @@ img:hover {
   text-align: center;
   height: 70px;
   line-height: 70px;
+  margin-top: 70px;
   background-color: #767671;
   color: #fff; }
   .footer__text {
