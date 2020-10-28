@@ -19,24 +19,24 @@ a:hover {
   background-size: 100% auto;
   height: 600px; }
 
-header {
+.header {
   width: 960px;
   height: 100px;
   margin: 0 auto;
   z-index: 2;
   position: absolute;
   right: 400px; }
-  header .nav {
+  .header__nav {
     display: flex;
     float: right;
     margin-top: 60px;
     font-size: 20px;
     font-family: "Bitter", serif; }
-    header .nav__item {
-      margin-right: 15px;
-      list-style: none; }
-    header .nav__link {
-      color: #FFF; }
+  .header__item {
+    margin-right: 15px;
+    list-style: none; }
+  .header__link {
+    color: #FFF; }
 
 .content {
   width: 960px;
