@@ -5,6 +5,7 @@
 }
 
 .main {
+  margin-top: 30px;
   &__inner{
     margin:30px 35px 0 0;
     width: 700px;
@@ -14,9 +15,12 @@
       font-family:$font; 
       border-bottom: 1px solid #cccccc;
   } 
-   &__section{
+  &__section{
     margin-top:30px;
-   } 
+  } 
+  &__image:hover{
+    opacity: 0.8;
+  }
 
   }
 

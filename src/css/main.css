@@ -43,17 +43,19 @@ a:hover {
   width: 960px;
   margin: 0 auto; }
 
-.main__inner {
-  margin: 30px 35px 0 0;
-  width: 700px; }
-
-.main__heading {
-  font-size: 36px;
-  font-family: "Bitter", serif;
-  border-bottom: 1px solid #cccccc; }
-
-.main__section {
+.main {
   margin-top: 30px; }
+  .main__inner {
+    margin: 30px 35px 0 0;
+    width: 700px; }
+  .main__heading {
+    font-size: 36px;
+    font-family: "Bitter", serif;
+    border-bottom: 1px solid #cccccc; }
+  .main__section {
+    margin-top: 30px; }
+  .main__image:hover {
+    opacity: 0.8; }
 
 .sidebar {
   margin-top: 30px; }

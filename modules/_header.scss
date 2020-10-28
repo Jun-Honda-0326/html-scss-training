@@ -12,7 +12,6 @@
   z-index: 2;
   position: absolute;
   right: 400px;
-
   &__nav {
     display:flex;
     float: right;
@@ -24,12 +23,9 @@
     margin-right: 15px;
     list-style: none;
   }
-   
   &__link{
     color:#FFF
  } 
-      
-
 }
 
 
