@@ -1,0 +1,15 @@
+.sidebar{
+  margin-top: 30px;
+  &__title{
+    font-size: 24px;
+    font-family:$font; 
+    color:$black;
+    margin-left: 20px;
+  }
+  &__link{
+    color: $black;
+    font-family:$font; 
+  }
+}
+
+
